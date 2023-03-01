@@ -1,0 +1,29 @@
+_id: req_d96c705d3c91468c8329411b3b6713c0
+type: Request
+parentId: fld_f3bb77bce94b46d2a6b98a1723b2da71
+modified: 1674574904816
+created: 1672860641186
+url: https://api.checkbox.ua/api/v1/cashier/signin
+name: Авторизація
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "login": "test_2irryh4np",
+      "password": "test_2irryh4np"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672860641186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

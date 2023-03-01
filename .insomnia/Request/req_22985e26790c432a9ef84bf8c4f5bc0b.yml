@@ -1,0 +1,23 @@
+_id: req_22985e26790c432a9ef84bf8c4f5bc0b
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674253608672
+created: 1674253193156
+url: https://api.wall-box.com/public/chargers/01GBMGK306FCHAZ1NXDHETPYKR/lock
+name: Lock a charger
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674253193156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

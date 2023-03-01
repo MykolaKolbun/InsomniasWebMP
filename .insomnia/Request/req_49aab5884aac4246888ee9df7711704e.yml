@@ -1,0 +1,44 @@
+_id: req_49aab5884aac4246888ee9df7711704e
+type: Request
+parentId: fld_f3bb77bce94b46d2a6b98a1723b2da71
+modified: 1675895157459
+created: 1674576439746
+url: https://api.checkbox.ua/api/v1/shifts
+name: Відкриття зміни
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_13aa7b85e9cf4c8aafc04deebc1ff5b9
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: true
+  - id: pair_ba60e3f1f23f4816b904343f0a3e8b96
+    name: X-Client-Name
+    value: Integration
+    description: ""
+    disabled: false
+  - id: pair_3084d87cae0e41b89d6da99c549df3f4
+    name: X-License-key
+    value: testd08adfdc8c07964f0f854fab
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_3ecf907bf6f742158ff05e26326677a7
+    disabled: false
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiQVBJIiwianRpIjoiMDc5ZWY5ZWEtZTNjNC00NzlhLTk1ZjAtMmQ0MGFjZjAzNjY2Iiwic3ViIjoiYTQxMjc0ZWItM2YwNC00MWViLTk1ZTItZTBjMjE2MjQxN2UyIiwibmJmIjoxNjc0NTk1NTIxLCJpYXQiOjE2NzQ1OTU1MjF9.EaxD-bo35jZz6zr377bGnRY6jQA394utrghhuSLxjG4
+metaSortKey: -1674334565035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

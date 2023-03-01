@@ -1,0 +1,23 @@
+_id: req_e9b748b3507044cab82c32933a539b9b
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674650827450
+created: 1674253827187
+url: https://api.wall-box.com/public/chargers/01GBMG9H1YTH08JEPEQJEY9XVR/stop-charging
+name: Stop Charging
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674253827187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

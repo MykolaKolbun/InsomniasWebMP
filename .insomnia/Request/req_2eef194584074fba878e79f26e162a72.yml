@@ -1,0 +1,36 @@
+_id: req_2eef194584074fba878e79f26e162a72
+type: Request
+parentId: fld_f3bb77bce94b46d2a6b98a1723b2da71
+modified: 1674595546145
+created: 1674575018773
+url: https://api.checkbox.ua/api/v1/cash-registers/info
+name: Отримання інформації про касу
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_13aa7b85e9cf4c8aafc04deebc1ff5b9
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_ba60e3f1f23f4816b904343f0a3e8b96
+    name: X-Client-Name
+    value: Integration
+    description: ""
+  - id: pair_3084d87cae0e41b89d6da99c549df3f4
+    name: X-License-key
+    value: testd08adfdc8c07964f0f854fab
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiQVBJIiwianRpIjoiMDc5ZWY5ZWEtZTNjNC00NzlhLTk1ZjAtMmQ0MGFjZjAzNjY2Iiwic3ViIjoiYTQxMjc0ZWItM2YwNC00MWViLTk1ZTItZTBjMjE2MjQxN2UyIiwibmJmIjoxNjc0NTk1NTIxLCJpYXQiOjE2NzQ1OTU1MjF9.EaxD-bo35jZz6zr377bGnRY6jQA394utrghhuSLxjG4
+metaSortKey: -1674575018773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_646cf2ec2f8c49d58bdcef27cbaed658
+type: Request
+parentId: fld_def13b4ce33246f88d8de99d513c5eb4
+modified: 1677684123240
+created: 1677683865645
+url: https://car.webhost.skidata.com/bei/ParkingTicketManagementServiceV4
+name: Get Version
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:data="http://www.skidata.com/interfaces/common/v1/data">
+       <soapenv:Header/>
+       <soapenv:Body>
+          <data:GetVersion/>
+       </soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - id: pair_cbceb559449444d28be37dd4ef07f386
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/xml
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: MPRespublikaPark
+  password: 5@R9atanaS
+metaSortKey: -1676958628400.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

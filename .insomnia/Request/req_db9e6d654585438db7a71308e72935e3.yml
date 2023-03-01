@@ -1,0 +1,23 @@
+_id: req_db9e6d654585438db7a71308e72935e3
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674253675148
+created: 1674253612912
+url: https://api.wall-box.com/public/chargers/01GBMG9H1YTH08JEPEQJEY9XVR/unlock
+name: Unlock Charger
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674253612912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

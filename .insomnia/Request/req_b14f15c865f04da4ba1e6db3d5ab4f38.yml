@@ -1,0 +1,52 @@
+_id: req_b14f15c865f04da4ba1e6db3d5ab4f38
+type: Request
+parentId: fld_def13b4ce33246f88d8de99d513c5eb4
+modified: 1677685084233
+created: 1677684193116
+url: https://car.webhost.skidata.com/bei/ParkingTicketManagementServiceV4
+name: Get Rate Info (TicketNr)
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <!-- GetRateInfo request example V4-->
+
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:msg="http://www.skidata.com/interfaces/parking/ticketManagement/v4/msg">
+       <soapenv:Header/>
+       <soapenv:Body>
+          <msg:GetRateInfo xmlns:dta="http://www.skidata.com/contractor/dtaservice/v7/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+             <msg:facilityId>APT.FAC.330084</msg:facilityId>
+              <msg:ticketId xsi:type="dta:GenericIdentification">
+    			<dta:Identificator>30520651033008400081692</dta:Identificator>
+    			<dta:Type>PARK</dta:Type>
+    		</msg:ticketId>
+             <msg:externalDeviceId>80</msg:externalDeviceId>
+             <msg:parkingDeviceId>80</msg:parkingDeviceId>
+          </msg:GetRateInfo>
+       </soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - id: pair_cbceb559449444d28be37dd4ef07f386
+    name: SOAPAction
+    value: '"http://www.skidata.com/interfaces/v3/parking/ticketManagement/GetVersion"'
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: text/xml;charset=UTF-8
+    id: pair_8251c15f9f884dcbb43bb8cedd0571e3
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: MPRespublikaPark
+  password: 5@R9atanaS
+metaSortKey: -1677318206223.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

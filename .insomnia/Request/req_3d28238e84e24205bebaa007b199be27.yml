@@ -1,0 +1,59 @@
+_id: req_3d28238e84e24205bebaa007b199be27
+type: Request
+parentId: fld_f3bb77bce94b46d2a6b98a1723b2da71
+modified: 1676394027791
+created: 1675033544798
+url: https://api.checkbox.ua/api/v1/receipts/sell
+name: Sell
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "089fcfb7-c135-4b49-95e7-13dc673d167e",
+    	"goods": [
+    		{
+    			"good": {
+    				"code": "001",
+    				"name": "Parking",
+    				"price": 1000,
+    				"is_return": false,
+    				"tax": [
+    					8
+    				]
+    			},
+    			"good_id": "d85a60fd-6b20-48cf-9e5d-ae10bd53d118",
+    			"sum": 0,
+    			"quantity": 1000,
+    			"is_return": false
+    		}
+    	],
+    	"payments": [
+    		{
+    			"type": "CASH",
+    			"pawnshop_is_return": false,
+    			"value": 1000,
+    			"label": "Готівка"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_271120b05236456283a8247d9e2d887f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiQVBJIiwianRpIjoiMDc5ZWY5ZWEtZTNjNC00NzlhLTk1ZjAtMmQ0MGFjZjAzNjY2Iiwic3ViIjoiYTQxMjc0ZWItM2YwNC00MWViLTk1ZTItZTBjMjE2MjQxN2UyIiwibmJmIjoxNjc0NTk1NTIxLCJpYXQiOjE2NzQ1OTU1MjF9.EaxD-bo35jZz6zr377bGnRY6jQA394utrghhuSLxjG4
+metaSortKey: -1675033544798
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

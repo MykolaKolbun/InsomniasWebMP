@@ -1,0 +1,58 @@
+_id: req_ada7c670562d4e4fa53a42dcd59e026e
+type: Request
+parentId: fld_def13b4ce33246f88d8de99d513c5eb4
+modified: 1677686008638
+created: 1677685116751
+url: https://car.webhost.skidata.com/bei/ParkingTicketManagementServiceV4
+name: Insert Electronic Validation(LP)
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <!-- InsertElectronicValidationTypeAndValue request example for
+    GenericIdentification V4-->
+
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       <soap:Body>
+          <InsertElectronicValidationTypeAndValue xmlns="http://www.skidata.com/interfaces/parking/ticketManagement/v4/msg" xmlns:ns2="http://www.skidata.com/contractor/dtaservice/v7/common" xmlns:ns3="http://www.skidata.com/interfaces/parking/ticketManagement/v4/data" xmlns:ns4="http://www.skidata.com/interfaces/common/v1/data">
+             <validationId>APT.VAL.1701.1</validationId>
+             <ticketId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:GenericIdentification">
+                <ns2:Identificator>OK8GT</ns2:Identificator>
+                <ns2:Type>LP</ns2:Type>
+             </ticketId>
+             <useConfiguredValidationTypeAndValue>false</useConfiguredValidationTypeAndValue>
+             <validationType>1</validationType>
+             <validationValue>10</validationValue>
+             <validationValueDateTime>2021-12-06T18:16:40.770573200</validationValueDateTime>
+             <externalDeviceId>80</externalDeviceId>
+             <parkingDeviceId>80</parkingDeviceId>
+          </InsertElectronicValidationTypeAndValue>
+       </soap:Body>
+    </soap:Envelope>
+parameters: []
+headers:
+  - id: pair_cbceb559449444d28be37dd4ef07f386
+    name: SOAPAction
+    value: '"http://www.skidata.com/interfaces/v3/parking/ticketManagement/GetVersion"'
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: text/xml;charset=UTF-8
+    id: pair_8251c15f9f884dcbb43bb8cedd0571e3
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: MPRespublikaPark
+  password: 5@R9atanaS
+metaSortKey: -1677048522856.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

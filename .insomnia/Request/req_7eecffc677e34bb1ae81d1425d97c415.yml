@@ -1,0 +1,30 @@
+_id: req_7eecffc677e34bb1ae81d1425d97c415
+type: Request
+parentId: fld_8eed270c7d6c45059a2c3a4dbcaa39f6
+modified: 1676239675346
+created: 1676239472754
+url: http://fs.tax.gov.ua:8609/doc
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_bb1b78f989bd49fcbcf8887177a41514
+    name: Content-Type
+    value: application/octet-stream
+    description: ""
+  - id: pair_53045f5651944b4ebdb33413f84dd2fd
+    name: Content-Length
+    value: "0"
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1676239472754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

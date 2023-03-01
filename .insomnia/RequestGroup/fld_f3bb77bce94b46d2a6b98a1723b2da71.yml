@@ -1,0 +1,10 @@
+_id: fld_f3bb77bce94b46d2a6b98a1723b2da71
+type: RequestGroup
+parentId: wrk_8b29bf69f56a4fa29dd969440116e2c6
+modified: 1672860637753
+created: 1672860637753
+name: CheckBoxAPI
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1672860637753

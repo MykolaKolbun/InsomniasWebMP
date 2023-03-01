@@ -1,0 +1,23 @@
+_id: req_305a0d6a716f483585b46734c7e1a4ed
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674254201964
+created: 1674254128858
+url: https://api.wall-box.com/public/chargers/01GBMG9H1YTH08JEPEQJEY9XVR/status
+name: Get the current status of a charger
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674254128858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

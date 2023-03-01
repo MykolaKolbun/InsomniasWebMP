@@ -1,0 +1,36 @@
+_id: req_e70f7b8410d14102907e06cb48f182e7
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674253050192
+created: 1672226618539
+url: https://api.wall-box.com/public/chargers/link
+name: LinkChargers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "data": {
+        "id": "01GQ8JYGRNER9YNXM5ZCNZ2DM6",
+        "type": "link-chargers",
+        "attributes": {
+          "user_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRzZXJAdWEuZm0iLCJ1aWQiOiIwMUdROEtXMFpXWlNFNzZKUVc4MzQxN1FSNSIsImV4cCI6MTY3NDI1MzA4MCwiaWF0IjoxNjc0MjUyNzgwLCJzb3VyY2UiOiJleHRlcm5hbC1sb2dpbiJ9.inZc1uoiEG5urrW3kWXm_Qau8RSJ1GxcVkQujeo00Uwv-S9GCQTmOzmGFkyN_K-IqgiHcZK1IGCYzxk49OE0TrtYBKT0I_M8owVsJIXpD3ZcTQ2epedpKjrftKTvMAAVDCDENvUM4kyTjFdoq6Xayc-9vdrrKQkS3eP6rrLckvHXGqUe9N6bXG9P5B0veJZhRtqpGIQtg6cxva4HuBWqbgeUpOqWMF71EJeNncQ0eMc6PbErJ3iG_3cA6MrS0iJ1HsBRdsy3Vsd1QAynN1Fi_299U6EQIqZztk_l5faEDYPed__pGXHYxGwBpfUhYaCHYcMi-rSwAo8Zl1vH6cXbAMJUlw1-3GPbGe-tGs6d4lIe3yYhKFHY6FBwBHBBBNq_hEYazJGpIOQ7eluXTZgfSeq7ebnIOFBD-afgItsuxcjnvZgGX94oSf4b1Dk24C8aW9kQ2XgIwjMwhlt_v3pFWjz0GL6-oaTPkNlY_zAlD03gefiEqgFoCeyvKmXzoCOI5-l5xHr_YEi211GJ5DXX1-TxuPvSo-WaPtx8GOZ_Mt_FvcDXN8rciMV8GEHAdCPdit-fhwT_M5FXh79K3wvQqmfEoPIc1f02CQsWAsk8HzTJWv9B1Rkk6zdzIt1r1wymdgKCcozBngQyBe9QeGEu_lnG4nJIGxq1Q5d_fKTYcJ0"
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1672226618540
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

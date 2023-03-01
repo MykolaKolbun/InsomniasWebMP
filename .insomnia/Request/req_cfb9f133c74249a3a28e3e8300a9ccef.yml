@@ -1,0 +1,23 @@
+_id: req_cfb9f133c74249a3a28e3e8300a9ccef
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674253819411
+created: 1674253743256
+url: https://api.wall-box.com/public/chargers/01GBMG9H1YTH08JEPEQJEY9XVR/start-charging
+name: Start Charging
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674253743256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

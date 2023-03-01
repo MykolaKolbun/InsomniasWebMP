@@ -1,0 +1,23 @@
+_id: req_79cf57405f1b4d43b05b8d1846e9c9ae
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674254329720
+created: 1674254263295
+url: https://api.wall-box.com/public/chargers/01GBMG9H1YTH08JEPEQJEY9XVR/charger-live-session
+name: Pull Last ChargerLiveSession
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674254263295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

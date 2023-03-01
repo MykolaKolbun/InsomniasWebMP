@@ -1,0 +1,23 @@
+_id: req_ab1d4ad2d6854fc49a89c4f31b9bf589
+type: Request
+parentId: fld_5dec0d9c85ea4d9591357a47021194ee
+modified: 1674254445824
+created: 1674254413789
+url: https://api.wall-box.com/public/partners/config
+name: Get partner configuration
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: kE0GcjGoSUsninDkDnPDmhjnHueNWSEdsX5luUoUT4tPjLWaiyiTqxRmgGHsyRlO
+metaSortKey: -1674254413789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
